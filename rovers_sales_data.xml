@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2025-01-14T15:52:27+01:00">
+    <shop>
+        <name>NASA Rovers</name>
+        <company>NASA</company>
+        <url>https://www.nasa.gov/mars-rovers</url>
+        <currencies>
+            <currency id="USD" rate="1"/>
+        </currencies>
+        <categories>
+            <category id="1">Rovers</category>
+            <category id="2" parentId="1">Mars Rovers</category>
+        </categories>
+        <offers>
+            <offer id="curiosity01" available="true">
+                <url>https://www.nasa.gov/mars-rovers/curiosity</url>
+                <price>2500000000</price>
+                <currencyId>USD</currencyId>
+                <categoryId>2</categoryId>
+                <picture>https://example.com/images/curiosity.jpg</picture>
+                <store>false</store>
+                <pickup>false</pickup>
+                <delivery>false</delivery>
+                <name>Марсоход Curiosity</name>
+                <vendor>NASA</vendor>
+                <param name="Миссия">Исследование поверхности Марса</param>
+                <param name="Энергетическая система">Ядерный реактор</param>
+                <param name="Вес">900 кг</param>
+                <param name="Габариты">3 м x 2,7 м x 2,2 м</param>
+                <param name="Научные инструменты">MastCam, ChemCam, Роботизированная рука</param>
+                <sales>
+                    <month name="Янв">30</month>
+                    <month name="Фев">25</month>
+                    <month name="Мар">27</month>
+                    <month name="Апр">20</month>
+                    <month name="Май">15</month>
+                    <month name="Июн">10</month>
+                    <month name="Июл">12</month>
+                    <month name="Авг">18</month>
+                    <month name="Сен">22</month>
+                    <month name="Окт">35</month>
+                    <month name="Ноя">28</month>
+                    <month name="Дек">30</month>
+                </sales>
+            </offer>
+
+            <offer id="opportunity01" available="true">
+                <url>https://www.nasa.gov/mars-rovers/opportunity</url>
+                <price>1600000000</price>
+                <currencyId>USD</currencyId>
+                <categoryId>2</categoryId>
+                <picture>https://example.com/images/opportunity.jpg</picture>
+                <store>false</store>
+                <pickup>false</pickup>
+                <delivery>false</delivery>
+                <name>Марсоход Opportunity</name>
+                <vendor>NASA</vendor>
+                <param name="Миссия">Долгосрочное исследование Марса</param>
+                <param name="Энергетическая система">Солнечные панели</param>
+                <param name="Вес">380 кг</param>
+                <param name="Габариты">2,3 м x 2 м x 1,5 м</param>
+                <param name="Научные инструменты">Микроскоп, спектрометр, камера</param>
+                <sales>
+                    <month name="Янв">50</month>
+                    <month name="Фев">48</month>
+                    <month name="Мар">60</month>
+                    <month name="Апр">50</month>
+                    <month name="Май">45</month>
+                    <month name="Июн">40</month>
+                    <month name="Июл">35</month>
+                    <month name="Авг">30</month>
+                    <month name="Сен">20</month>
+                    <month name="Окт">25</month>
+                    <month name="Ноя">22</month>
+                    <month name="Дек">18</month>
+                </sales>
+            </offer>
+
+            <offer id="spirit01" available="true">
+                <url>https://www.nasa.gov/mars-rovers/spirit</url>
+                <price>1400000000</price>
+                <currencyId>USD</currencyId>
+                <categoryId>2</categoryId>
+                <picture>https://example.com/images/spirit.jpg</picture>
+                <store>false</store>
+                <pickup>false</pickup>
+                <delivery>false</delivery>
+                <name>Марсоход Spirit</name>
+                <vendor>NASA</vendor>
+                <param name="Миссия">Исследование структуры почвы</param>
+                <param name="Энергетическая система">Солнечные панели</param>
+                <param name="Вес">350 кг</param>
+                <param name="Габариты">2 м x 2,3 м x 1,5 м</param>
+                <param name="Научные инструменты">Микроскоп, камень и грунт анализатор</param>
+                <sales>
+                    <month name="Янв">40</month>
+                    <month name="Фев">45</month>
+                    <month name="Мар">48</month>
+                    <month name="Апр">55</month>
+                    <month name="Май">60</month>
+                    <month name="Июн">50</month>
+                    <month name="Июл">35</month>
+                    <month name="Авг">45</month>
+                    <month name="Сен">50</month>
+                    <month name="Окт">60</month>
+                    <month name="Ноя">40</month>
+                    <month name="Дек">35</month>
+                </sales>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
